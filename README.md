@@ -15,11 +15,7 @@ A cloud-based conversational AI chatbot built with AWS Lex, featuring a modern w
     - [3. Amazon Cognito Authentication](#3-amazon-cognito-authentication)
     - [4. Twilio Integration (Optional)](#4-twilio-integration-optional)
     - [5. Lex Web UI Deployment](#5-lex-web-ui-deployment)
-- [Local Development](#local-development)
-- [Deployment](#deployment)
-- [Screenshots](#screenshots)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
+
 
 ##  Overview
 
@@ -39,8 +35,7 @@ This project demonstrates a production-ready IT Help Desk chatbot that can handl
 
 The system consists of four main components that work together seamlessly:
 
-
-![Architecture Diagram](images/arch.png)
+![Architecture Diagram](images/arch2.png)
 
 ### Component Breakdown:
 
@@ -281,7 +276,7 @@ This section enables SMS and WhatsApp messaging capabilities.
 1. Sign up at [Twilio Console](https://console.twilio.com/)
    ![twilio1](images/twilio1.png)
 2. Get a Twilio phone number with SMS capabilities
-3. ![twilio2](images/twilio2.png)
+3. ![twilio222](images/twilio222.png)
 3. Note your **Account SID** and **Auth Token**
 
 
@@ -301,7 +296,7 @@ This section enables SMS and WhatsApp messaging capabilities.
 
       ![twilio6](images/twilio6.png)
       ![twilio7](images/twilio7.png)
-    - ![twilio8](images/twilio8.png)
+    - ![twilio88](images/twilio88.png)
 5. Copy the **Callback URL** provided by AWS
 
 ![twilio10](images/twilio10.png)
